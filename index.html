@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-widht, initial-scale=1.0">
+    <title>Vulgar Culture</title>
+
+    <style>
+        body{
+             background-image: linear-gradient(
+            rgba(0,0,0,0.4),
+            rgba(0,0,0,0.4)
+        ),
+             url('background3.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial;
+    color: white;
+    text-shadow: #000000;
+    font-size: 20px;
+        }
+
+    nav{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px 60px;
+
+    background: rgba(0,0,0,0.6);
+    backdrop-filter: blur(10px);
+
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+.logo{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 35px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    position: relative;
+    transition: 0.3s;
+}
+
+nav ul li a:hover{
+    color: #FFD700;
+}
+nav ul li a::after{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background: #FFD700;
+    left: 0;
+    bottom: -5px;
+    transition: 0.3s;
+}
+
+nav ul li a:hover::after{
+    width: 100%;
+}
+
+        footer{
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+    background: transparent;
+    color: white;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover{
+    color: yellow;
+}
+footer p{
+    margin: 20px 0;
+}
+.hero{
+    text-align:center;
+    padding:120px 20px;
+    color:white;
+}
+
+.hero h1{
+    font-size:70px;
+    letter-spacing:5px;
+    text-shadow:3px 3px 10px black;
+}
+
+.hero p{
+    font-size: 32px;
+    font-weight: bold;
+    text-shadow: 2px 2px 8px black;
+}
+
+.hero button{
+    padding:15px 30px;
+    border:none;
+    border-radius:30px;
+    font-size:16px;
+    cursor:pointer;
+    font-weight:bold;
+}
+
+.hero button:hover{
+    transform:scale(1.05);
+}
+    </style>
+</head>
+
+<body>
+
+<nav>
+    <div class="logo">VULGAR CULTURE</div>
+
+    <ul>
+        <li><a href="tshirt.html">T-Shirt</a></li>
+        <li><a href="hoodie.html">Hoodie</a></li>
+        <li><a href="aksesoris.html">Aksesoris</a></li>
+    </ul>
+</nav>
+
+</nav>
+
+<header class="hero">
+    <h1>VULGAR CULTURE</h1>
+    <p>Streetwear • Local Brand • Indonesia</p>
+
+    <a href="tshirt.html">
+        <button>View Collection</button>
+    </a>
+</header>
+<footer>
+    <p>© Vulgar Culture 2026</p>
+    <p>
+        Instagram:
+        <a href="https://www.instagram.com/vulgarculturejkt.id" target="_blank">
+            @vulgarculturejkt.id
+        </a>
+    </p>
+</footer>
+</body>
+</html>

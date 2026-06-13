@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vulgar Culture</title>
+
+    <style>
+
+    body{
+             background-image: linear-gradient(
+            rgba(0,0,0,0.4),
+            rgba(0,0,0,0.4)
+        ),
+             url('background3.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial;
+    color: white;
+    text-shadow: #000000;
+    font-size: 20px;
+        }
+
+    nav{
+        display: flex;
+        justify-content: center;
+        padding: 5px;
+        background: rgba(0,0,0,0.5);
+    }
+
+    nav ul{
+        display: flex;
+        gap: 40px;
+        list-style: none;
+        padding: 0;
+    }
+
+    nav a{
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    nav a:hover{
+        color: yellow;
+    }
+
+    h1{
+        text-align: center;
+        margin-top: 30px;
+        text-shadow: 2px 2px 6px black;
+    }
+
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 50px;
+        padding: 50px;
+    }
+
+    .produk{
+        background: transparent;
+        width: 250px;
+        padding: 15px;
+        border-radius: 10px;
+        text-align: center;
+    }
+
+    .produk img{
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+
+    .produk h3{
+        color: white;
+        text-shadow: 2px 2px 5px black;
+    }
+
+    .produk p{
+        color: white;
+        text-shadow: 2px 2px 5px black;
+    }
+
+    button{
+        background: #25D366;
+        color: white;
+        border: none;
+        padding: 10px 15px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    button:hover{
+        opacity: 0.8;
+    }
+
+    @media (max-width: 768px){
+
+    nav ul{
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        padding: 0;
+    }
+
+    nav a{
+        font-size: 14px;
+    }
+
+}
+
+    </style>
+</head>
+
+<body>
+
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="tshirt.html">T-Shirt</a></li>
+        <li><a href="hoodie.html">Hoodie</a></li>
+        <li><a href="aksesoris.html">aksesoris</a></li>
+    </ul>
+</nav>
+
+<h1>Hoodie</h1>
+
+<div class="container">
+
+    <div class="produk">
+        <img src="hoodie black.png" alt="Hoodie Black">
+        <h3>Vulgar Hoodie</h3>
+        <p>Rp 150.000</p>
+
+        <a href="https://wa.me/6289504624259?text=Saya ingin membeli Hoodie Black">
+            <button>Beli Sekarang</button>
+        </a>
+    </div>
+
+    <div class="produk">
+        <img src="hoodie grey.png" alt="Hoodie Grey">
+        <h3>Vulgar Hoodie</h3>
+        <p>Rp 150.000</p>
+
+        <a href="https://wa.me/6289504624259?text=Saya ingin membeli Hoodie Grey">
+            <button>Beli Sekarang</button>
+        </a>
+
+</div>
+
+</body>
+</html>

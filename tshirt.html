@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vulgar Culture</title>
+
+    <style>
+
+    body{
+             background-image: linear-gradient(
+            rgba(0,0,0,0.4),
+            rgba(0,0,0,0.4)
+        ),
+             url('background3.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial;
+    color: white;
+    text-shadow: #000000;
+    font-size: 20px;
+        }
+.hero-tshirt{
+    text-align: center;
+    padding: 100px 20px;
+    color: white;
+}
+
+.hero-tshirt h1{
+    font-size: 70px;
+    letter-spacing: 5px;
+    font-weight: bold;
+    text-shadow: 3px 3px 10px black;
+}
+
+.hero-tshirt p{
+    font-size: 24px;
+    text-shadow: 2px 2px 8px black;
+}
+.hero-tshirt h1::after{
+    content: "";
+    display: block;
+    width: 120px;
+    height: 4px;
+    background: white;
+    margin: 15px auto;
+}
+    nav{
+        display: flex;
+        justify-content: center;
+        padding: 5px;
+        background: rgba(0,0,0,0.5);
+    }
+
+    nav ul{
+        display: flex;
+        gap: 40px;
+        list-style: none;
+        padding: 0;
+    }
+
+    nav a{
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    nav a:hover{
+        color: yellow;
+    }
+
+    h1{
+        text-align: center;
+        margin-top: 30px;
+        text-shadow: 2px 2px 6px black;
+    }
+
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 50px;
+        padding: 50px;
+    }
+
+    .produk{
+        background: transparent;
+        width: 250px;
+        padding: 15px;
+        border-radius: 10px;
+        text-align: center;
+    }
+
+    .produk img{
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+
+    .produk h3{
+        color: white;
+        text-shadow: 2px 2px 5px black;
+    }
+
+    .produk p{
+        color: white;
+        text-shadow: 2px 2px 5px black;
+    }
+    button{
+        background: #25D366;
+        color: white;
+        border: none;
+        padding: 10px 15px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    button:hover{
+        opacity: 0.8;
+    }
+
+    @media (max-width: 768px){
+
+    nav ul{
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        padding: 0;
+    }
+
+    nav a{
+        font-size: 14px;
+    }
+
+        }
+
+    </style>
+</head>
+
+<body>
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="tshirt.html">T-shirt</a></li>
+        <li><a href="hoodie.html">Hoodie</a></li>
+        <li><a href="aksesoris.html">Aksesoris</a></li>
+    </ul>
+</nav>
+<header class="hero">
+    <h1>T-shirt</h1>
+</header>
+<h1></h1>
+
+<div class="container">
+
+    <div class="produk">
+        <img src="Tshirt_Putih_forn_biru-removebg-preview.png" alt="Vulgar Culture Blue">
+        <h3>Vulgar culture Blue</h3>
+        <p>Rp 150.000</p>
+
+        <a href="https://wa.me/6289504624259?text=Saya ingin membeli Vulgar Blue">
+            <button>Shop Now</button>
+        </a>
+    </div>
+
+    <div class="produk">
+        <img src="Tshirt_Long_sleve-removebg-preview.png" alt="Vulgar Long Slevee">
+        <h3>Long Slevee</h3>
+        <p>Rp 150.000</p>
+
+        <a href="https://wa.me/6289504624259?text=Saya ingin membeli long slever">
+            <button>Shop Now</button>
+        </a>
+    </div>
+
+    <div class="produk">
+        <img src="Tshirt_Biru-removebg-preview.png" alt="Make Some Noise">
+        <h3>DOME</h3>
+        <p>Rp 150.000</p>
+
+        <a href="https://wa.me/6289504624259?text=Saya ingin membeli DOME">
+            <button>Shop Now</button>
+        </a>
+    </div>
+
+</div>
+
+</body>
+</html>
